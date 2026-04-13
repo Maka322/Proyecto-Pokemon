@@ -1,6 +1,7 @@
-import { updateFavoritesList } from "./render";
+import { updateFavoritesList } from "./render.js";
+import { pokemonActual } from "./search.js";
 
-function saveFavorite() {
+export function saveFavorite() {
     if (!pokemonActual) {                            //si no escribe o busca un pokemon
         alert("Primero busca un pokémon")
         return;

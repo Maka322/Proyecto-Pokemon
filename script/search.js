@@ -18,8 +18,8 @@ export function searchPokemon() {
             console.log("Datos recibidos:", data); 
 
             pokemonActual = {
-                name: data.name,
-                image: data.sprites.front_default
+                nombre: data.name,
+                imagen: data.sprites.front_default
             };
 
             console.log("Pokemon guardado:", pokemonActual);
