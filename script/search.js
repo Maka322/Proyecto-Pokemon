@@ -1,12 +1,12 @@
 console.log("JS conectado");
 
-let pokemonActual = null;
+export let pokemonActual = null;
 
-function searchPokemon() {
+export function searchPokemon() {
 
     console.log("Función ejecutada"); 
 
-    const nombre = document.getElementById("inputPokemon").value.toLowerCase();
+    const nombre = document.getElementById("pokemonInput").value.toLowerCase();
     console.log("Nombre:", nombre); 
 
     fetch(`https://pokeapi.co/api/v2/pokemon/${nombre}`)

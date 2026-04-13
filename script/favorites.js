@@ -1,3 +1,5 @@
+import { updateFavoritesList } from "./render";
+
 function saveFavorite() {
     if (!pokemonActual) {                            //si no escribe o busca un pokemon
         alert("Primero busca un pokémon")
@@ -17,5 +19,5 @@ function saveFavorite() {
 
     lista.push(pokemonActual)                                     // .push agrega el pokémon al array (lista)
     localStorage.setItem("favoritos", JSON.stringify(lista));     // JSON.stringify convierte el array a texto para guardarlo
-
+    updateFavoritesList()
 }
