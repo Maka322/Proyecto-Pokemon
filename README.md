@@ -22,10 +22,10 @@ Este proyecto es una aplicación web sencilla que permite:
 
 ##  Tecnologías utilizadas
 
-- HTML5 → estructura básica de la aplicación.
-- CSS3 :estilos simples para presentación.
+- HTML5: Estructura básica de la aplicación.
+- CSS3 : Estilos simples para presentación.
 - JavaScript
-  - "fetch()"  para consumir la PokéAPI.
+  - "fetch()" para consumir la PokéAPI.
   - "localStorage" para persistencia de datos.
   - "JSON.stringify()" y "JSON.parse()" para manejar arrays/objetos.
 
