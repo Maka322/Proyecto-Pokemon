@@ -30,11 +30,11 @@ Este proyecto es una aplicación web sencilla que permite:
   - "JSON.stringify()" y "JSON.parse()" para manejar arrays/objetos.
 
 ---
-Colaboradoresa:
+Colaboradores:
 
-Joan Camilo Triana
-Leider Merchan Guitierrez
-Daniel Vega
-Jessica Acevedo
+Joan Camilo Triana, 
+Leider Merchan Guitierrez, 
+Daniel Vega, 
+Jessica Acevedo, 
 Marcia Katerine Baquero Ruiz 
 
